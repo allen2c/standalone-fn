@@ -6,6 +6,7 @@ readme = "README.md"
 version = "0.1.0"
 
 [tool.poetry.dependencies]
+fdk = "*"
 python = "^3.12"
 
 [tool.poetry.extras]
