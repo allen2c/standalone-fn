@@ -1,0 +1,26 @@
+[tool.poetry]
+authors = ["Allen Chou <f1470891079@gmail.com>"]
+description = ""
+name = "standalone-fn"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.extras]
+all = []
+
+
+[tool.poetry.group.dev.dependencies]
+black = { extras = ["jupyter"], version = "*" }
+faker = "*"
+isort = "*"
+poetry-plugin-export = "^1.6.0"
+pytest = "^8"
+pytest-asyncio = "*"
+setuptools = ">=69"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
